@@ -114,7 +114,7 @@ body{ background-image: url(public/bootstrap/img/plawy.jpg);}
 
 
 /* CSS utilizado para posicionar o rodapé no final da página. */
-/* Você pode remover isso. */
+
 
 html{
     height: 100%;
@@ -139,3 +139,72 @@ body{
    -webkit-flex: 0 0 auto;
 }
 /* rodape */
+/* modal */
+.modal1{
+
+background-image: url(public/bootstrap/img/Blue-Gradient-Blur-Background-For-Free.jpg);
+
+}
+
+
+/* scholbar  tamanho  */
+::-webkit-scrollbar{
+
+    width: 8px;
+    
+    }
+    /* coloraçao parte do meio */
+    ::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent,#02c4f5);
+    border-radius: 5px;
+    }
+    ::-webkit-scrollbar-thumb:hover{
+    
+        background: linear-gradient(transparent,#036df7);
+    
+    }
+
+    /* botao de subir ao topo */
+#subirTopo {
+    text-decoration: none;
+    background: rgba(4, 172, 238, 0.9);
+    bottom: 30px;
+    right: 20px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: fixed;
+    border: 0;
+    font-family: sans-serif;
+    opacity: .8;
+    }
+    
+    #subirTopo:hover {
+    opacity:1;
+    }
+/* final */
+
+
+/* ZOOM na imagem  */
+.zoom {
+	overflow: hidden;
+}
+
+.zoom img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+/* Fim ZOom imagem */

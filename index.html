@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="public/bootstrap/fonts/icomun/icomun.css">
     
     <title>Document</title>
 </head>
@@ -21,10 +22,10 @@
             <img src="public/bootstrap/img/h.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="public/bootstrap/img/topo.png" class="d-block w-100" alt="...">
+            <img src="public/bootstrap/img/1.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="https://placehold.it/1200x200" class="d-block w-100" alt="...">
+            <img src="public/bootstrap/img/2 (2).jpg" class="d-block w-100" alt="...">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -36,23 +37,27 @@
           <span class="sr-only">Next</span>
         </a>
 </div>
+<!-- Modal -->
 <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
+        <div class="modal-content modal1 ">
+            <div class="modal-header modal1 ">
 
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 <span aria-hidden="true">&times;</span>
 </button>
             </div>
-            <div class="modal-body">
+
+            <div class="modal-body modal1 ">
                 <div class="col">
-                    <div class="alert alert-secondary" role="alert">
-                        <h1 class="text-center text-danger">Cadastro de Usuario</h1>
+                    <div class="alert " role="alert">
+                        <h1 class="text-center text-danger">Cadastro de usuario</h1>
                         <hr>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam vel similique rem totam Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam vel similique rem totam </p>
 
                         <div class="form-group">
+                            
+
 
                             <input class="form-control" type="text" required="required" pattern="[a-z\S]+$" placeholder="Seu nome">
 
@@ -78,10 +83,7 @@
                     </div>
                 </div>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Understood</button>
-            </div>
+           
         </div>
     </div>
 </div>
@@ -90,53 +92,9 @@
 
 
 
-    <!-- Modal -->
-    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-  <span aria-hidden="true">&times;</span>
-</button>
-                </div>
-                <div class="modal-body">
-                    <div class="col">
-                        <div class="alert alert" role="alert">
-                            <h1 class="text-center text-danger">Cadastro de Usuario</h1>
-                            <hr>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam vel similique rem totam Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam vel similique rem totam </p>
-
-                            <div class="form-group">
-
-                                <input class="form-control" type="text" required="required" pattern="[a-z\S]+$" placeholder="Seu nome">
-
-                            </div>
-
-                            <div class="row">
-                                <div class="col-5"> <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu e-mail"></div>
-
-                                <div class="col-2 "></div>
-                                <div class="col-5"><input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha"></div>
-                            </div>
-
-                            <div class="form-group py-3">
-
-                                <input class="form-control" type="text" required="required" pattern="[a-z\S]+$" placeholder="Seu endereço">
-
-                            </div>
-
-                            <div class="text-right">
-                                <input class="btn btn-primary" type="reset"  data-dismiss="modal"   value="Cadastrar">
-                                <input class="btn btn-primary" type="submit" value="Submit">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </div>
+    
+    
+    <!-- navbar  -->
     <nav class="luiz navbar navbar-expand-lg navbar-light fixed  ">
         <a class="navbar-brand text-light " href="#">SONY</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -146,18 +104,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link  text-light " href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link  text-light " href="#"> <span class="lua-house" ></span>  Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light " href="#">Link</a>
+                    <a class="nav-link text-light " href="#"> <span class="lua-star" ></span> Sobre</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-light  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-       Produtos
-      </a>
-      <li class="nav-item">
+                <li class="nav-item">
         <a class="nav-link text-light " href="#">  <span class="lua-shopping-cart" ></span> Carinho de compras</a>
     </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light  " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         <span class="lua-product-hunt "  ></span> Produtos
+      </a>
+      
                     <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item  text-light " href="#">Monitores</a>
                         <a class="dropdown-item text-light  " href="#">Teclados</a>
@@ -174,8 +133,12 @@
                 <button type="button" class="btn btn-danger">Buscar</button>
             </form>
 
-            <button type="button" class="luu btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
-             <span class="lua-user" ></span>
+            <button type="button" class="luu btn btn-danger ml-2" data-toggle="modal" data-target="#staticBackdrop">
+        
+                <span class="lua-user 
+                " ></span>
+    
+           
             </button>
         </div>
     </nav>
@@ -190,7 +153,9 @@
 
         <div class="card-deck">
             <div class="luizjj card my-3  border border-primary " style="width: 18rem;  ">
-                <img src="public/bootstrap/img/play1.jpg" class="card-img-top" alt="...">
+                <div class="zoom" >
+                    <img src="public/bootstrap/img/play1.jpg" class="card-img-top" alt="...">
+                    </div>
                 <div class="card-body ">
                     <h5 class=" text-dark ">kit mouse e teclado </h5>
                     <p class=" text-dark card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -199,7 +164,9 @@
             </div>
 
             <div class="luizjj card my-3  border border-primary " style="width: 18rem;  ">
-                <img src="public/bootstrap/img/play1.jpg" class="card-img-top" alt="...">
+                <div class="zoom" >
+                    <img src="public/bootstrap/img/play1.jpg" class="card-img-top" alt="...">
+                    </div>
                 <div class="card-body ">
                     <h5 class=" text-dark ">kit mouse e teclado </h5>
                     <p class=" text-dark card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -208,7 +175,9 @@
             </div>
 
             <div class="luizjj card my-3  border border-primary " style="width: 18rem;  ">
-                <img src="public/bootstrap/img/play1.jpg" class="card-img-top" alt="...">
+                <div class="zoom" >
+                    <img src="public/bootstrap/img/play1.jpg" class="card-img-top" alt="...">
+                    </div>
                 <div class="card-body ">
                     <h5 class=" text-dark ">kit mouse e teclado </h5>
                     <p class=" text-dark card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -219,7 +188,9 @@
 
         <div class=" card-deck  bg-dar ">
             <div class="luizjj card my-3  border border-primary " style="width: 18rem;  ">
-                <img src="public/bootstrap/img/play1.jpg" class="card-img-top" alt="...">
+                <div class="zoom" >
+                    <img src="public/bootstrap/img/play1.jpg" class="card-img-top" alt="...">
+                    </div>
                 <div class="card-body ">
                     <h5 class=" text-dark ">kit mouse e teclado </h5>
                     <p class=" text-dark card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -227,7 +198,9 @@
                 </div>
             </div>
             <div class="luizjj card my-3  border border-primary " style="width: 18rem;  ">
-                <img src="public/bootstrap/img/play1.jpg" class="card-img-top" alt="...">
+                <div class="zoom" >
+                    <img src="public/bootstrap/img/play1.jpg" class="card-img-top" alt="...">
+                    </div>
                 <div class="card-body ">
                     <h5 class=" text-dark ">kit mouse e teclado </h5>
                     <p class=" text-dark card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -236,7 +209,9 @@
             </div>
 
             <div class="luizjj card my-3  border border-primary " style="width: 18rem;  ">
-                <img src="public/bootstrap/img/play1.jpg" class="card-img-top" alt="...">
+                <div class="zoom" >
+                    <img src="public/bootstrap/img/play1.jpg" class="card-img-top" alt="...">
+                    </div>
                 <div class="card-body ">
                     <h5 class=" text-dark ">kit mouse e teclado </h5>
                     <p class=" text-dark card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -247,7 +222,9 @@
 
         <div class="card-deck">
             <div class="luizjj card my-3  border border-primary " style="width: 18rem;  ">
+                <div class="zoom" >
                 <img src="public/bootstrap/img/play1.jpg" class="card-img-top" alt="...">
+                </div>
                 <div class="card-body ">
                     <h5 class=" text-dark ">kit mouse e teclado </h5>
                     <p class=" text-dark card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -257,7 +234,9 @@
 
 
             <div class="luizjj card my-3  border border-primary " style="width: 18rem;  ">
-                <img src="public/bootstrap/img/play1.jpg" class="card-img-top" alt="...">
+                <div class="zoom" >
+                    <img src="public/bootstrap/img/play1.jpg" class="card-img-top" alt="...">
+                    </div>
                 <div class="card-body ">
                     <h5 class=" text-dark ">kit mouse e teclado </h5>
                     <p class=" text-dark card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -266,12 +245,23 @@
             </div>
 
             <div class="luizjj card my-3  border border-primary " style="width: 18rem;  ">
-                <img src="public/bootstrap/img/play1.jpg" class="card-img-top" alt="...">
+                <div class="zoom" >
+                    <img src="public/bootstrap/img/play1.jpg" class="card-img-top" alt="...">
+                    </div>
                 <div class="card-body ">
                     <h5 class=" text-dark ">kit mouse e teclado </h5>
                     <p class=" text-dark card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="parte4.html" class="btn btn-primary">Comprar</a>
+                    
+                    <div class="row" >
+                        <div class="col-4">
+                        <span class="text-light  " >29,99 R$ </span> 
+                        </div>
+                        <div class="col-8 text-right mb-3 ">
+                    <a href="parte4.html" class="btn btn-primary   ">Comprar</a>
+                    </div>
                 </div>
+                </div>
+
             </div>
 
 
@@ -285,45 +275,55 @@
 
 <!-- FIM MEIO -->
 
+<!-- botao subir ao topo -->
+<div class="container-fluid">
+
+    <a id="subirTopo">
+        <span class="lua-arrow-up" ></span> <br> 
+      </a>
+
+</div>
+
+
 <!-- rodape -->
 
     <footer id="myFooter">
         <div class="container">
             <div class="row">
                 <div class="col-sm-3">
-                    <h2 class="logo"><a href="https://programadorviking.com.br/"> SONY </a></h2>
+                    <h2 class="logo"><a href=""> SONY </a></h2>
                 </div>
                 <div class="col-sm-2">
                     <h5>Inicio</h5>
                     <ul>
-                        <li><a href="https://programadorviking.com.br/">Home</a></li>
-                        <li><a href="https://bit.ly/front-end-curso-completo-promocao-01">Cursos</a></li>
-                        <li><a href="https://programadorviking.com.br/">Downloads</a></li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Cursos</a></li>
+                        <li><a href="">Downloads</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-2">
                     <h5>Sobre-nós</h5>
                     <ul>
-                        <li><a href="https://programadorviking.com.br/">Informações da Empresa</a></li>
-                        <li><a href="https://programadorviking.com.br/">Contato</a></li>
-                        <li><a href="https://programadorviking.com.br/">Blog</a></li>
+                        <li><a href="">Informações da Empresa</a></li>
+                        <li><a href="">Contato</a></li>
+                        <li><a href="">Blog</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-2">
                     <h5>Suporte</h5>
                     <ul>
-                        <li><a href="https://programadorviking.com.br/">FAQ</a></li>
-                        <li><a href="https://programadorviking.com.br/">Telefones</a></li>
-                        <li><a href="https://programadorviking.com.br/">Chat</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Telefones</a></li>
+                        <li><a href="">Chat</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3">
                     <div class="social-networks">
-                        <a href="https://programadorviking.com.br/" class="twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="https://programadorviking.com.br/" class="facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="https://programadorviking.com.br/" class="instagram"><i class="fa fa-instagram"></i></a>
+                        <a href="" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="" class="instagram"><i class="fa fa-instagram"></i></a>
                     </div>
-                    <a href="https://programadorviking.com.br/">
+                    <a href="">
                         <button type="button" class="btn btn-default">Contato</button>
                     </a>
                 </div>
@@ -333,6 +333,15 @@
             <p>© 2019 Copyright - SONY</p>
         </div>
         <!-- rodape -->
+
+
+
+
+
+
+
+
+
 <script src="public/bootstrap/js/jquery-3.5.1.min.js"></script>
 <script src="public/bootstrap/js/bootstrap.js"></script>
 <script src="index.js"></script>
