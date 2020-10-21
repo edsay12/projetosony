@@ -4,6 +4,13 @@
     border-style: double;
 border-color: grey;}
 
+.luizjj1 {
+    
+position: fixed ;
+
+
+}
+
 body{ background-image: url(public/bootstrap/img/plawy.jpg);}
 
 /* rodape */
@@ -208,3 +215,27 @@ background-image: url(public/bootstrap/img/Blue-Gradient-Blur-Background-For-Fre
 }
 
 /* Fim ZOom imagem */
+
+/* carouceu */
+/* override position and transform in 3.3.x */
+.carousel-inner .item.left.active {
+    transform: translateX(-50%);
+  }
+  .carousel-inner .item.right.active {
+    transform: translateX(50%);
+  }
+  
+  .carousel-inner .item.next {
+    transform: translateX(50%)
+  }
+  .carousel-inner .item.prev {
+    transform: translateX(-50%)
+  }
+  
+  .carousel-inner .item.right,
+  .carousel-inner .item.left { 
+    transform: translateX(0);
+  }
+  
+  
+  .carousel-control.left,.carousel-control.right {background-image:none;}
